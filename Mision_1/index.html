@@ -3,10 +3,38 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Mision 1</title>
+	<title>LIGHTS OUT</title>
 	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
 </head>
 <body>
-	
+
+	<header>LIGHTS OUT</header>
+
+	<div id="contenedor">
+		<aside id="instrucciones">
+			<h2>Instrucciones</h2>
+			<p>El objetivo del juego es apagar todas las luces del tablero. Cada vez que hagas clic en una luz, esta y las luces adyacentes cambiarán de estado (encendido/apagado). ¡Buena suerte!</p>
+			
+			<div id="botones">
+					<button id="iniciar" class="boton">Iniciar</button>
+				</select>
+				<select id="dificultad" class="boton">
+					<option value="facil">Fácil</option>
+					<option value="medio" selected>Medio</option>
+					<option value="dificil">Difícil</option>
+				</select>
+				<button id="reiniciar" class="boton">Reiniciar</button>
+			</div>
+		</aside>
+
+		<main>
+			<section id="contenedor_luces">
+			
+			</section>
+			<p id="movimientos">Movimientos: 0</p>
+			
+		</main>
+	</div>
 </body>
 </html>
